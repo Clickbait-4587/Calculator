@@ -1,0 +1,89 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Xanh+Mono:ital@0;1&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap);
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: cadetblue;
+}
+a{
+  color: #013a57;
+  font-weight: bolder
+}
+.calculator {
+  height: 515px;
+  width: 330px;
+  margin: auto;
+  border-radius: 15px;
+  margin-bottom: 100px
+}
+
+#screen {
+  height: 130px;
+  border: 15px solid rgb(31, 30, 30);
+  background-color: rgb(51, 49, 49);
+  border-bottom: 20px;
+  border-radius: 15px 15px 0 0;
+  padding: 5px 10px;
+  letter-spacing: 5px !important;
+font-family: 'Orbitron', sans-serif;
+}
+
+#screen-texts {
+  position: relative;
+  margin: auto;
+  background-color: #2a2a2a;
+  height: 49px;
+
+}
+#screen-text{
+  position: relative;
+  bottom: -30px
+}
+.keys {
+  width: 70px;
+  height: 50px;
+  position: relative;
+  top: 30px;
+  margin: 3px;
+  background-color:  rgb(69, 70, 68);
+}
+
+.keys:hover {
+  background-color: rgb(114, 112, 112)
+}
+
+h1 {
+  text-shadow: 2px 2px 2px rgb(69, 70, 68);
+}
+
+.screen-texts {
+  margin: auto;
+  word-spacing: 10px;
+}
+
+#screen-text,
+#screen-text-after {
+  overflow: scroll;
+}
+#screen-text-after{
+ padding-left: 0 !important;
+ width: 100%;
+ margin-top: 0px;
+ height: 20px;
+position: relative;
+bottom: -30px
+}
+*::-webkit-scrollbar{
+  display: none
+}
+#ans {
+  position: relative;
+  padding-right: 10px;
+  overflow: scroll;
+  width: 100%;
+  padding-top: 10px
+}
