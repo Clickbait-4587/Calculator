@@ -52,6 +52,7 @@ class Control {
 
 
 $(document).ready(()=>{
+    alert('js working')
 
     $(document).keydown(e=>{
         Control.handleKeyDown(e)
